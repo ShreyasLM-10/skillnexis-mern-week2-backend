@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables - contain secrets, NEVER commit them
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test / coverage output
+coverage/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

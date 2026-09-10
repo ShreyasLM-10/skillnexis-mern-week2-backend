@@ -1,0 +1,22 @@
+{
+  "name": "skillnexis-mern-week2-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Skill Nexis MERN internship - Week 2 backend assignments (To-Do API, Auth API, Notes App backend)",
+  "scripts": {
+    "setup": "node scripts/run-all.js install",
+    "test:all": "node scripts/run-all.js test",
+    "lint": "eslint .",
+    "security": "node scripts/security-check.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-security": "^4.0.1",
+    "globals": "^17.12.0"
+  }
+}
